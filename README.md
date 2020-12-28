@@ -5,7 +5,7 @@ Web-Ready Actuarial Notes Typeset in LaTeX and Stylized with CSS
 
 Studying for actuarial exams requires one to ingest massive amounts of often-equation-dense information. The nature of the task necessitates an orderly approach, and I quickly learned that, with my chicken scratch, hundreds of pages of hand-written notes wouldn't suffice.
 
-Therefore, I devised a way to produce beautiful, stylized notes that would help me prepare for actuarial exams. The process went as follows:
+Therefore, **I devised a way to produce beautiful, stylized notes that would help me prepare for actuarial exams.** The process went as follows:
 
 1) compose notes as [.rmd](https://rmarkdown.rstudio.com/) files, embedding LaTeX equations wherever necessary
 2) include CSS styles directly within the files 
