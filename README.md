@@ -1,5 +1,5 @@
 # HTML-CSS-LaTeX
-Web-Ready Actuarial Notes Typeset in LaTeX and Stylized with CSS
+## Web-Ready Actuarial Notes Typeset in LaTeX and Stylized with CSS
 
 *This project was completed in my spare time as a way to facilitate my actuarial studies.*
 
