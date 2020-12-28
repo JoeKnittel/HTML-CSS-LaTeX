@@ -1,0 +1,1448 @@
+---
+title: "Ratemaking and Loss Reserving Notes"
+---
+
+<style>
+  div {border-radius: 10px; padding: 10px}
+  div.red    {background-color:rgba(255, 199, 199, 1)}
+  div.lr     {background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255, 69, 69,0.3));}
+  div.orange {background-color:rgba(255, 224, 199, 1)}
+  div.lo     {background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,165,0,0.3));}
+  div.yellow {background-color:rgba(255, 248, 199, 1)}
+  div.ly     {background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,255,0, 0.3));}
+  div.green  {background-color:rgba(215, 255, 199, 1)}
+  div.lg     {background-image: linear-gradient(to right, rgba(215, 255, 199, 1), rgba(111, 255, 54, 0.4));}
+  div.blue   {background-color:rgba(199, 233, 255, 1)}
+  div.lb     {background-image: linear-gradient(to right, rgba(199, 233, 255, 1), rgba(84, 188, 255, 0.3));}
+  div.purple {background-color:rgba(229, 199, 255, 1)}
+  div.lp     {background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(176, 88, 252, 0.3));}
+  div.gray   {background-color:rgba(253, 253, 253, 1)}
+  div.lg     {background-color:rgba(253, 253, 253, 0.5)}
+  div.white  {background-color:rgba(255, 255, 255, 1)}
+  div.ja     {background-color:rgba(250, 250, 250, 1)}
+</style>
+
+$\newcommand{\vect}[1]{\boldsymbol{#1}}$
+
+<div class = "ja">
+
+# Chaper Two: Property/Casualty Coverages
+
+<div class = "red">
+
+## 2.1: Introduction
+
+- We will attempt to describe property/casualty coverages that exist around the world and the general level of security that they provide.
+
+
+</div><br>
+
+<div class = "orange">
+
+## 2.2: Automobile Insurance
+
+- Important coverages normally available in an automobile insurance policy include liability coverage (compulsory), medical benefits (compulsory), uninsured and underinsured motorist coverage, and collision and other than collision (OTC) insurance.
+
+- Insured parties are policyholder + immediate family + invited drivers
+
+- Doesn't cover normal operating expenses
+
+- Under a no-fault system, the injured party does not have to sue for compensation or even prove that the driver of the other car was at fault for the accident
+
+- Most policies cover other states, but not other countries 
+
+<div class = "lo">
+
+### 2.2.1: Liability Insurance (Section A)
+
+- Commonly referred to as "Third Pary Liability", or "Section A", or "BI/PD" (Bodily-Injury/Property Damage)
+
+- The liability section of the auto policy provides coverage to the policyholder if, as the driver of a covered vehicle, the policyholder injures a third party or damages a third party’s property
+
+- The insurer provides legal defense in the event of court case, and pays for damages up to policy limit
+
+- Intentional crash not covered
+
+- No coverage if workers compensation is supposed to provide the benefits
+
+- Compulsory for driving car (min = $25k in most states; $200k in most provinces of Canada)
+
+- Since bodily injuries can result in claims of millions of dollars, it's advisable to buy increased limits of coverage
+
+</div><br>
+
+<div class = "lo">
+
+### 2.2.2: Medical Benefits (Section B)
+
+- Medical payments a.k.a. personal injury protection a.k.a accident benefits a.k.a. Section B
+
+- Provides protection to the policyholder and family in the case of injury in an accident
+
+- Compulsory
+
+- No coverage if workers compensation is supposed to provide the benefits
+
+- First-party coverage: policyholder receives the claim payments
+
+- Tort (at-fault): Section A > Section B; No-fault: Section B > Section A  [importance]
+
+</div><br>
+
+<div class = "lo">
+
+### 2.2.3: Uninsured and Underinsured Motorist Coverage
+
+- Provides protection for the policyholder and family if injured by either an unidentified, uninsured, or underinsured motorist
+
+</div><br>
+
+
+<div class = "lo">
+
+### 2.2.4: Collision and Other Than Collision (Section C)
+
+#### Collision
+
+- Provides coverage for damage to the policyholder's own vehicle, under two subsections: one covering collision and another covering other than collision (OTC)
+
+- Option to purchase one or both coverages
+
+- Collision: insurer pays for repair or replacement, subject to a deductible (e.g., $500)
+
+- **Collision limit** is the lesser of the actual cash value of the damaged property or the amount necessary to repair or replace the damaged property
+
+- If other driver is at fault, policyholder can sue to regain the deductible. This is called ***subrogation***
+
+- If a collision claim requires paying the full value of the vehicle (i.e., a "write-off"), the insurer then owns the vehicle and can take it to a wrecker to retain any ***salvage value*** (the insurer cannot make profit off of the salvage, though; excess goes back to the policyholder)
+
+- Premiums vary by age, gender, marital status, accident history
+
+#### Other Than Collision (OTC)
+
+- OTC = hail, fire, vandalism, stone chips, theft, etc.
+
+  - If coverage provides for all perils listed, it's called ***comprehensive coverage***
+  
+  - Otherwise, it's called ***specified perils***
+  
+- Premiums for OTC vary only by vehicle type
+
+- Deductible lower than that of collision (e.g., ~$250 vs. ~$500)
+
+</div>
+
+</div><br>
+
+<div class = "yellow">
+
+## 2.3: Homeowners Insurance
+
+- As with auto insurance, there are different sections of homeowners insurance.
+
+- Rates vary based on geographical location, probability of earthquake, flood, construction materials used in house, etc.
+
+### Section 1
+
+- Section 1 is normally subdivided into four subsections called Coverages A,B,C, and D:
+
+<div class = "ly">
+
+#### Homeowners Dwelling Insurance (Coverage A)
+  
+- Coverage A provides protection against damage to you house (excluding earthquake and flood)
+
+- Not covered if dwelling is vacated for 30+ days or if it is intentionally damaged
+  
+- ***Doctrine of proximate cause***: loss is covered only if a ***covered peril*** is the proximate cause of a ***covered consequence***
+
+- $50,000 fire caused by faulty appliance -> +$50,000 policyholder; insurer right to sue appliance manufacturer -> possible +>$50,000 insurer -> excess to policyholder
+
+- Could have a deductible and a policy limit (***Example 2.1*** shows a disappearing deductible, as claim increases)
+
+- Insurers require that policyholders insure their homes to near full value (~80%+) in order to get full coverage (otherwise, you get partial: e.g., 75% bought with 80% min limit -> 75/80*val_of_claim)
+
+</div><br>
+
+<div class = "ly">
+
+#### Garage and Other Structures (Coverage B)
+
+- Normally 10% of dwelling coverage amount
+
+</div><br>
+
+<div class = "ly">
+
+#### Cash Value of Personal Property (Coverage C)
+
+- Usually a percentage of the insured value of the house (~40-50%) (e.g., Home covered for $400k -> contents covered up to $200k)    
+  
+- ***Inside limits*** apply to certain losses (e.g., $1000 max on theft of cash or jewelry)
+
+- ***Schedule*** of items to be insured contains appraised values
+
+- Also applies to personal items while outside of home (e.g., traveling and lost personal assets), but normally limited to 10% of amount of Coverage C
+
+</div><br>
+
+<div class = "ly">
+
+#### Coverage for Additional Living Expense and Loss of Rental Income (Coverage D)
+
+- Pays the fair rental value for alternative accommodation wile your dwelling is being repaired due to damage
+
+- Limit is normally 20% of coverage on the dwelling
+
+</div>
+
+### Section 2
+
+- Provides liability coverage to the policyholder (e.g., if someone is injured while on your property and is able to establish negligence on the part of the homeowner)
+  
+- Insurer defends the homeowner in court and pays the costs of defense
+
+</div> <br>
+
+<div class = "green">
+
+## 2.4: Tenants Package
+
+- Rather than standard homeowners policy, renters would go for a ***tenants package***
+
+- Covers basically everything that's in a standard homeowners policy
+
+- Much of the liability risk is covered by the liability coverage carried by the owner of the apartment building
+
+- Tenants package mostly covers personal possessions
+
+</div><br>
+
+<div class = "blue">
+
+## 2.5: Workers Compensation
+
+- An example of an early introduction of no-fault insurance whereby workers gave up their rights to sur their employers in cases of occupational accident or sickness in return for no-fault benefits on a pre-defined or scheduled basis.
+
+- Prior to 1895, it was normally very difficult for a worker to get compensation in case of injury or illness; the worker was forced to sue the employer and prove negligence
+
+- Current workers compensation laws exist in all states and provinces, the employer is deemed to be absolutely liable for the occupational injuries suffered by the worker, regardless of who might at fault in the eyes of a court of law
+
+- Objectives of workers comp
+
+  - Broad coverage of workers for occupational injury and disease
+  
+  - Substantial protection against loss of income
+  
+  - Sufficient medical care and rehabilitation services
+  
+  - Encouragement of safety
+  
+  - Efficient and effective delivery system for benefits and services
+  
+- About 87% of *salaried* workers in the U.S. are covered by some form of workers compensation
+
+- Some examples of diseased caused by work that are covered by workers comp: hearing loss, carpal tunnel, asbestosis
+
+- Worker can usually expect the following workers comp benefits:
+
+  - Medical care benefits (representing 55% of workers comp claims, by amount)
+  
+  - Disability income (for when you can't return to work)
+  
+  - Death benefits (burial allowance + cash-income payments) to eligible surviving dependents
+  
+  - Rehab services and benefits
+  
+- Most costs are borne by the employers
+
+- Rate based on industry (***class rating***)
+
+</div><br>
+
+<div class = "purple">
+
+## 2.6: Fire Insurance
+
+- Fire insurance is designed to indemnify the insured for loss of, or damage to, buildings and personal property by fire, lightning, Windstorm, hail, explosion, and other perils
+
+- Can be for direct or indirect costs due to these perils
+
+- Base: ***standard fire policy (SFP)*** = covers only direct loss from fire and lightning
+
+</div><br>
+
+<div class = "red">
+
+## 2.7: Marine Insurance
+
+- Two types: ***ocean marine*** and ***inland marine***
+
+- Designed to protect against financial loss resulting from damage to, or destruction of, owner property, except that here the covered perils are primarily those connected with transportation
+
+- Ocean marine = oceangoing vessels and their cargoes
+
+- Inland marine = trucking 
+
+- Risks eligible for coverage (inland):
+
+  - Domestic shipments by way of railroads, motor vehicles, air, mail, parcel post, armored car
+  
+  - Intrumentalities of transportation (e.g., bridges, tunnels)
+  
+  - Personal property floater risks (e.g., construction equipment, personal jewelry, etc.)
+
+</div><br>
+
+<div class = "orange">
+
+## 2.8: Liability Insurance
+
+- Common for homeowners and auto insurance, but can be purchased for other things as well
+
+- Common examples:
+
+  - Product liability insurance
+  
+  - Errors and omissions insurance
+  
+  - Medical malpractice insurance
+  
+  - Professional liability insurance
+  
+- Characterized by low claim frequency, but high value claims
+
+</div><br>
+
+<div class = "yellow">
+
+## 2.9: Limits to Coverage
+
+- In all of the types of insurance outlined above, there are limits to coverage.
+
+- Include: deductibles and policy limits
+
+<div class = "ly">
+
+### 2.9.1: Deductibles
+
+- Reasons for deductibles:
+
+  - Small losses do not create a claim, thus saving the associated expenses
+  
+  - For larger losses, the average claim payment is reduced -> premium savings
+  
+  - Deductible puts policyholder at risk -> economic incentive for policyholder to prevent a claim
+
+- Problems associated with deductibles:
+
+  - Insured may be disappointed that losses are not paid in full
+  
+  - Can lead to misunderstandings and bad public relations
+  
+  - May make the marketing of coverage more difficult
+  
+  - Insured may inflate the claim to recover the deductible
+
+- Types of deductibles
+
+  - ***Fixed-dollar deductibles***, which apply to each claim
+  
+  - ***Fixed-percentage deductibles***, which may be a percentage of either the loss or the policy limit, that apply to each claim
+  
+  - ***Disappearing deductible*** (see Section 2.3 example)
+
+  - ***Franchise deductible***, whereby if the loss is less than $n$ dollars, the insurer pays nothing, but if the loss equals or exceeds $n$, the claim is paid in full
+
+  - ***Fixed-dollar deductible per calendar year***
+  
+</div><br>
+
+<div class = "ly">
+
+### 2.9.2: Policy Limits
+
+- Reasons an insurer might place a limit on coverage provided in a policy:
+
+  - The limit clarifies the insurer's obligation (workers comp medical is unlimited)
+  
+  - Setting a policy limit provides an upper bound to the loss distribution for the insurer and lessens the risk assumed by the insurer
+  
+  - Having policy limits allows the policyholder to choose appropriate coverage at an appropriate price
+
+</div>
+
+</div><br>
+
+<div class = "green">
+
+## 2.10: Conclusion
+
+- Above has been a very broad introduction to types of insurance, and what has been expressed should apply to coverages worldwide
+
+- There are some other more obscure coverages one might purchase (e.g., boiler and machinery insurance, contract surety insurance, business interruption insurance, etc.)
+
+</div>
+
+</div><br>
+
+<div class = "ja"> 
+
+
+# Chapter Three: Ratemaking
+
+<div class = "blue">
+
+## 3.1: Introduction
+
+- This chapter provided an introduction to property/casualty ratemaking without telling the reader how to develop rates for any particular coverae or any particular jurisdiction.
+
+</div><br>
+
+<div class = "purple">
+
+## 3.2: Objectives of Ratemaking
+
+<div class = "lp">
+
+### 3.2.1: Essential Objectives
+
+#### Cover Expected Losses and Expenses
+
+- Insurer income includes premium and investment income
+
+- Insurer outgo includes all losses, the expenses associated with those losses, all sales expenses (e.g., commissions), premium taxes, and all expenses of running the head office and any branch offices
+
+- Premiums should be commensurate with the risk that is contributes to the insurance pool 
+
+#### Produce Rates that Make Adequate Provision for Contingencies
+
+- Not only must the actuary price for the expected, but there should also be a provision in the rates for the unexpected (e.g., the lOO—year flood)
+
+- If rates are too high, the insurer will lose business, and normally its best business, to the competition or to self-insurance. 
+
+- If rates are too low, the insurer will lose money and be forced to reduce surplus to cover the deficiency
+
+#### Encourage Loss Control
+
+- Methods include: good driver discounts (auto), discounts for sprinkler systems and burglar alarms (homeowners), etc.
+
+#### Satisfy Rate Regulators
+
+- Basic requirements of the regulatory agencies are that rates must be adequate, not excessive, and not unfairly discriminating
+
+- Gotta defend against what people might think is discrimination (e.g., classification based on age, gender, etc.)
+
+
+</div><br>
+
+<div class = "lp">
+
+### 3.2.2: Non-Essential but Desirable Objectives
+
+#### Produce Rates that are Reasonably Stable
+
+- The use of reinsurance helps spread the effects of losses over time, thus enhancing rate stability
+
+#### Produce Rates that are Reasonably Responsive to Changes
+
+- e.g., a legislated change in the speed limit or an important precedent set by a Supreme Court decision should be responded to as quickly and fully as possible
+
+#### Be Simple and Easy to Understand
+
+- If the insurer's rate manual is too complex it may provide an incentive for agents and brokers to place the
+business with another insurer
+
+- Complex systems are more expensive to program and maintain in a computer
+
+</div><br>
+
+</div><br>
+
+<div class = "red">
+
+## 3.3: Frequency and Severity
+
+In the evaluation of any contingent cash flow, the following four input variables are required:
+
+  1.  A ***claim frequency distribution***, which has been developed from recent experience data. The ***average claim frequency*** is defined as: 
+  
+  $$
+    f = \dfrac{\text{number of incurred claims}}{\text{units of earned exposure}}
+  $$
+    
+  2.  A ***loss distribution***, which models the ***severity*** of losses that are incurred. The ***average loss severity*** is defined as:
+  
+  $$
+    \begin{align}
+      S &= \dfrac{\text{dollars of incurred losses}}{\text{number of incurred claims}} \\ \\
+        &= \text{average payment per incurred claim}
+    \end{align}
+  $$
+
+  3.  A rate of interest, $i$, or force of interest, $\delta$
+  
+  4.  The times at which the payments are made
+
+<br>
+
+Furthermore, we define the ***loss cost*** per unit exposure as:
+
+$$
+  \begin{align}
+    \text{Loss Cost} &= \text{Average Claim Frequency} \times \text{Average Loss Severity} \\ \\
+                     &= \dfrac{\text{number of incurred claims}}{\text{units of earned exposure}} \cdot \dfrac{\text{dollars of incurred losses}}{\text{number of incurred claims}} \\ \\
+                     &= \dfrac{\text{dollars of incurred losses}}{\text{units of earned exposure}}
+  \end{align}
+$$
+
+- The loss cost is the expected value of the incurred losses per unit of exposure
+
+  - Also called the ***pure premium*** by property/casualty actuaries
+  
+  - Called the ***net premium*** by life actuaries
+
+</div><br>
+
+<div class = "orange">
+
+## 3.4: Data for Ratemaking
+
+- The ratemaking actuary will need access to data on loss costs and premiums
+
+- The actuary must be sure that information is recorded quickly and appropriately, and that systems are appropriately designed to gather, store, and present the data in an efficient and accurate fashion
+
+- Data on claims, loss payments, and premiums may be collected and tabulated in any of the following three ways (Sections 3.4.1-3)
+
+<div class = "lo">
+
+### 3.4.1: Accident Year
+
+- Most common method for compiling actuarial data
+
+- Any action on any claim arising from a loss event (accident) which occurred in calendar year Z will be accounted for as ***accident year Z***
+
+- The first annual report of total claims and losses incurred for accident year Z is compiled as of December 3, Z, and consists of the losses paid-to-date plus any unpaid loss reserves for accidents that occurred in calendar year Z, *regardless of the year in which the action was taken*
+
+</div><br>
+
+<div class = "lo">
+
+### 3.4.2: Policy Year
+
+- Any claim action arising from a policy that became effective in calendar year Z will be accounted for as ***policy year Z***
+
+- At December 31, Z, policy year Z is not complete because typically most policies written in calendar year Z will not expire until after the end of that year
+
+- Disadvantage: the exposure period for policy year Z is the fu11 24 months from January 1, Z, through December 31, Z+1 (since policy issued on December 31, Z -> December 31, Z+1)
+
+- Advantage: allows the pricing actuary to match on a consistent basis premiums and losses from one accounting basis (i.e., the policy year)
+
+</div><br>
+
+<div class = "lo">
+
+### 3.4.3: Calendar Year
+
+- Any accounting action that takes place in calendar year Z is accounted for as ***calendar year Z***, regardless of the year in which the corresponding policy was issued or the accident occurred
+
+- The results for calendar year Z can be finalized as of December 31, Z
+
+- Paid losses for calendar year Z are the total of all l055 payments in that calendar year regardless of the date of occurrence of the accident or the issue date of the policy
+
+- Incurred losses for calendar year Z can be defined as:
+
+  $$
+    \begin{align}
+    \text{Incurred Losses}(Z) &= \text{Paid Losses}(Z) + \Delta\text{Reserves}(Z) \\ \\
+                              &= \text{Paid Losses}(Z) + \text{Unpaid Loss Reserves 12/31/Z} \\
+                              &  \quad \ - \text{Unpaid Loss Reserves 12/31/Z}-1
+    \end{align}
+  $$
+
+- Incurred losses for calendar year Z do not correspond to any particular accident period or any particular policy period
+
+- Calendar year incurred losses can be determined immediately at the end of the year
+
+</div><br>
+
+</div><br>
+
+<div class = "yellow">
+
+## 3.5: Premium Data
+
+- Usually readily available and accurate. Available in two formats: written or earned premiums
+
+- Difference between the two formats: ***unearned premium***
+
+### Written Premiums
+
+- Categorize premiums by the effective date of the policy
+
+- Example: policy anniversary = oct. 15 -> written premium year Z (even though most of the premium is not earned until year Z+1)
+
+### Earned Premiums
+
+- The amounts actually earned in the period
+
+</div><br>
+
+<div class = "green">
+
+## 3.6: The Exposure Unit
+
+- Generally, the ratemaking actuary produces a rate manual that contains rates per ***unit of exposure*** (e.g., per car-year, or per 100 of payroll)
+
+- The premium that is paid is the rate manual rate multiplied by the number of units of exposure
+
+- The exposure unit is defined in terms of an ***exposure base*** (e.g., car-years)
+
+- A good exposure base should (often a few criteria are not satisfied):
+
+  - be an accurate measure of the quantitative exposure to loss
+  
+  - be easy for the insurer to determine
+  
+  - not be subject to manipulation by the insured
+  
+  - be easy to record and administer
+  
+  - be understood by the policyholder
+
+- Exposure base normally shifts with inflation for homeowners and workers comp, but not auto insurance
+
+</div><br>
+
+<div class = "blue">
+
+## 3.7: The Expected Effective Period
+
+- The ratemaking actuary must set rates that will be in effect for a future period, based on past information
+
+- The ***expected effective period*** (e.g., the period during which losses may occur under policies to be written using the new rates) will be a policy period
+
+- If rates take effect on October 15, Z, and are to be effective for one year, and if the insurer only writes one-year policies, then the expected effective period may appear to be the year from October 15, Z to October 15, Z+1. However, policies will be in effect from October 15, Z to October 15, Z+2 (the latter being the expiration date of a policy issued October 15, Z+1) 
+
+- Because of this, if the actuary is pricing for a policy year, s/he is forced to work with either incomplete data from the policy year, or use relatively out-of-date data
+
+- To counteract this, it is more common to work with accident year data
+
+- Generally, calendar year data are not used in ratemaking
+
+</div><br>
+
+<div class = "purple">
+
+## 3.8: Ingredients of Ratemaking
+
+<div class = "lp">
+
+### 3.8.1: Loss-Development Factors
+
+- Much of the data for ratemaking will be incomplete or immature; final claim cost will not be known, so claim cost estimate will likely be used
+
+- Often, early incurred estimates are less than later estimates (known as ***loss development***). This could be due to:
+
+  - Reserve estimates being deficient or optimistic
+  
+  - There were claims that were ***incurred but not reported (IBNR)*** in early report years that were subsequently reported and included in later report years
+
+  - <font color = "blue">***See Tables 3.1-3 on p. 62-63!***</font>
+  
+- Ratemaking actuary advised to seek assistance of the reserving actuary
+
+- Loss-development factor normally > 1, but could be less due to salvage/subrogation
+
+</div><br>
+
+<div class = "lp">
+
+### 3.8.2: Trend Factors
+
+- The ratemaking actuary will need to estimate the ***expected loss cost*** for the future policy effective period to which the rates will apply
+
+- The actuary typically uses a trend factor to adjust past experience to future levels
+
+- ***Tables 3.4-5*** show how we get claim frequency, loss severity, and loss cost from the data
+
+- How can we adjust the past experience data so as to estimate the expected loss cost (pure premium) as of the future effective period?
+
+  - Least squares is frequently used to fit a line or curve to the experience period data; trend factors can then be determined for the loss cost estimate
+  
+  - ***See Example 3.1 for calculating projected loss cost*** [very nice!]
+  
+- Normally, the trend factor is the single most important input parameter in the ratemaking process and one of the few that allows for significant subjective modification
+
+- The trend factor is used to effectively adjust the experience period indications from the average accident date of the past experience period to the average accident date of the future effective period
+
+- The loss development factor is used to adjust immature losses from their latest reported values to their expected ultimate values
+
+</div><br>
+
+<div class = "lp">
+
+### 3.8.3: Expenses
+
+- The rate being set by the actuary must also include an allowance for expenses
+
+- ***Loss adjustment expenses (LAE)*** are expenses associated with the loss adjustment and payment process
+
+  - ***Allocated loss adjustment expenses (ALAE)*** are associated with a particular claim
+  
+  - ***Un-allocated loss adjustment expenses (ULAE)*** are not associated with a particular claim
+
+- Many insurers formulate all expenses, other than loss adjustment expenses, as a percentage of the gross rate:
+
+$$
+  \begin{align}
+    \textbf{Expense Ratio} &= \text{All Expenses other than LAE, as a Percentage of the Gross Rate} \\ \\
+    \textbf{Permissible Loss Ratio} &= 1 - \text{Expense Ratio} \\ \\
+    \textbf{Gross Rate} &= \dfrac{\text{Incurred Loss Cost per Unit of Exposure}}{\text{Permissible Loss Ratio}}
+  \end{align}
+$$
+
+</div><br>
+
+<div class = "lp">
+
+### 3.8.4: Loading for Profit and Contingencies
+
+- The incurred loss cost in the gross rate formula is the expected value of future losses
+
+- It is normal to include a provision for adverse deviations in the rate. There is also a specific profit provision in the rate. In total, these are referred to as the ***loading for profit and contingencies***
+
+  - The loading may be included in the calculation implicitly or explicitly, 
+  
+  - The explicit approach (calculate the best estimate of the loss cost with no level of conservatism, but then add an explicit factor [% of gross rate] for profit and contingencies) becoming more popular
+
+- The marketplace should not allow excessive profit and contingency margins (if insurer's rates are too high, it will lose business; too low -> underwriting losses)
+
+</div><br>
+
+<div class = "lp">
+
+### 3.8.5: Credibility Factors
+
+- One tool that aids the actuary in striking a compromise between responsiveness and stability when working with sparse data is the ***credibility factor***, which has the following properties:
+
+  - $0<Z<1; \quad Z= 1$: fully credible
+
+  - $\dfrac{dZ}{dE}>0$, meaning credibility increases as the volume of experience  data increases ($E$ is some measure of exposure)
+  
+  - $\dfrac{d}{dE}\left( \dfrac{Z}{E}\right)<0$, meaning the percentage change in credibility, due to a policy or claim of a given size, should decrease as the size of the risk increases
+  
+  - $Z = \dfrac{E}{E+K} \quad \text{ or } \quad Z = \min \left( \sqrt{\dfrac{n}{k}},1 \right)$
+
+</div><br>
+
+<div class = "lp">
+
+### 3.8.6: Investment Income
+
+- A basic principle of actuarial science is that one must explicitly account for the time value of money (e.g., premium for $1M liability loss should be significantly small than that of a fire loss, since the claim is paid over several years vs. several months)
+
+</div><br>
+
+</div><br>
+
+<div class = "red">
+
+## <font color = "red">3.9: Rate Changes</font>
+
+There are three steps to a rate change, as described in the following three subsections:
+
+<div class = "lr">
+
+### 3.9.1: Overall Average Rate Change
+
+Two methods for calculating the overall average rate change (they yield the exact same result!):
+
+#### Loss Cost (pure premium) Method
+
+$$
+  \begin{align}
+    \text{New Average Loss Cost} &= \dfrac{\text{Expected Dollar Losses in Effective Period}}{\text{Number of Earned Exposure Units}} \\ \\
+    \text{Permissible Loss Ratio} &= 1 - \text{Expense Ratio} \\ \\
+    \text{New Average Gross Rate} &= \dfrac{\text{New Average Loss Cost}}{\text{Permissible Loss Ratio}}
+  \end{align}
+$$
+
+#### Loss Ratio Method
+
+$$
+  \begin{align}
+    \text{Indicated Rate Change} &= \dfrac{\text{Expected Effective Loss Ratio}}{\text{Permissible Loss Ratio}} - 1 \\ \\
+    \text{Expected Effective Loss Ratio} &= \dfrac{\text{Expected Dollar Losses in Effective Period}}{\text{Dollars of Earned Premium at Current Rates}}
+  \end{align}
+$$
+
+$$
+   ============================================
+$$
+
+
+#### Earned Premium (extending exposures method)
+
+$$
+  \text{Dollars of Earned Premium at Current Rates} = \sum_{ijk} C R_{ijk} \cdot e_{ijk}
+$$
+
+where $CR_{ijk}$ is the current rate for cell $ijk$ defined by rate classification parameters $i,j$ and $k$ (e.g., class, territory, rate group), and $e_{ijk}$ is the corresponding number of earned exposure units in cell $ijk$ in the existing book of business
+
+#### Earned Premium (parallelogram method)
+
+- Adjust the insurer's earned premium accounting entry to reflect the effect of all rate changes that were made subsequent to the time the earned premiums were written
+
+- <font color = "blue">***See Example 3.2 (crucial!)***</font>
+
+
+- In practice, the actuary will do two separate average rate calculations: one is based on data from the actuary's own company, and the other is based on a wider data base which is normally available from one or more rating bureaus and/or statistical agencies
+
+$$
+  \textbf{Credibility-Weighted Average Indicated Rate} \\
+  Z \cdot (\text{Company Indication}) + (1-Z) \cdot (\text{Rating Bureau Indication})
+$$
+
+</div><br>
+
+<div class = "lr">
+
+### 3.9.2: Changing Risk Classification Differentials
+
+- We want to be able to determine new rates for each rating class, which will, in turn, generate the indicated overall average rate change
+
+- Production of rate manual
+
+  - One risk classification is chosen as the ***base cell*** (usually largest amount of exposure)
+  
+  - Other rate cells will be defined by a variety of risk classification variables, such as class, territory, etc.
+  
+  - For each risk classification variable, there will be a vector of differentials (or relativities), with base cell assigned a differential of 1.000 (see ***Example 3.4***)
+   
+
+</div><br>
+
+<div class = "lr">
+
+### 3.9.3: Balancing Back
+
+- 3.9.1-2 can result in ***off-balance***
+
+$$
+  \begin{align}
+    \textbf{Off-balance Factor} &= \dfrac{\text{New Average Differential}}{\text{Old Average Differential}} \\ \\
+    \textbf{Balance-back Factor} &= \dfrac{1}{\text{Off-balance Factor}}
+  \end{align}
+$$
+$$
+  \text{where average differential is a weighted average of differentials } \\ \text{based on the amount of earned exposure units for each class}
+$$
+
+- To achieve a 10% (for instance) average rate change, the actuary should increase the ***base*** rate not by 10%, but rather by the factor 1.10 * $\text{Balance-back Factor}$
+
+</div><br>
+
+<div class = "lr">
+
+### 3.9.4: Summary of the Rate Change Procedure
+
+- A rate change is a three-step process in which we:
+
+  - Determine the overall average rate change
+  
+  - Change all differentials as indicated, and
+  
+  - Balance back to the overall rate change indicated
+  
+- Often, differentials come from industry-wide data, if available
+
+- <font color = "blue">***See Examples 3.6-7 (very crucial!!/very nice!)***</font>
+
+</div><br>
+
+</div>
+
+</div> <!-- ja -->
+
+<br>
+
+<div class = "ja">
+
+# Chapter Four: Loss Reserving
+
+<div class = "orange">
+
+## 4.1: Introduction
+
+- Perhaps the most important function an actuary in the property/casualty insurance industry performs is ***loss reserving***, whereby the actuary determines the present liability associated with future claim payments
+
+- In most jurisdictions, a law requires that a qualified actuary attest to the adequacy and appropriateness of the insurer's loss reserves
+
+- Loss reserving actuary must act as a ***fiduciary*** for at least two parties
+
+  - The actuary protects the rights of the insurer's policyholders, by attesting that the insurer has set aside enough money to pay all future benefits on obligations that already exist
+  
+  - The actuary attests to the insurer's solvency (confirms that reported profits are real, and that they can be distributed or re-invested)
+
+
+</div><br>
+
+<div class = "yellow">
+
+## 4.2: How Outstanding Claim Payments Arise
+
+- Auto collision and homeowners property claims are normally settled in a matter of weeks
+
+- Claims for auto bodily injury and medical malpractice can easily take ten to twenty years to be settled
+
+</div><br>
+
+<div class = "green">
+
+## 4.3: Definition of Terms
+
+<div class = "lg">
+
+### 4.3.1: Individual Claim File Estimates
+
+- As soon as the field adjusted is aware of a pending claim, a ***claim file*** will be established
+
+- The claim file contains information pertinent to the claim, such as date of accident, date of claim, assigned lawyer, examining physician, payments-to-date, and so on
+
+- The field adjuster is expected to estimate as early as possible the expected ultimate claim payment, taking into consideration the following:
+
+  - The severity of the loss associated with the claim
+  
+  - The likely time to settlement and to final payment
+  
+  - Inflation between the accounting data and the expected time of final payment
+  
+  - Recent changes in claim settlement or payment patterns, including any changes in court adjudications or legislation
+  
+- The aggregate of the individual claim file estimates is called the ***case reserves***
+
+</div><br>
+
+<div class = "lg">
+
+### 4.3.2: Gross IBNR
+
+- Case reserves are only part of the total reserve requirement. The following are also required:
+
+  - Provision for future development in known claims (i.e., adjustments of case reserves)
+  
+  - Provision for claim files that are closed, but which may re-open (e.g., workers compensation)
+  
+  - Provision for claims incurred, but not reported (pure IBNR)
+  
+  - Provision for claims reported, but not recorded (RBNR)
+
+- The total of the four above components of the total reserve is normally called the ***bulk reserve*** or the ***gross IBNR reserve***
+
+</div><br>
+
+<div class = "lg">
+
+### 4.3.3: Paid Loss Development
+
+- The change in cumulative payments made to date on a defined set of claim files (split by line of business and accident year) between successive valuation dates is called the ***paid age-to-age loss development***
+
+- The change from one specified evaluation date (or age) to the ultimate payment amount is called ***age-to-ultimate loss development***
+
+
+</div><br>
+
+<div class = "lg">
+
+### 4.3.4: Incurred Loss Development
+
+- The change in cumulative incurred claims (paid—to-date plus outstanding reserve estimates) on a defined set of claim files on successive valuation dates is called the ***incurred age-to-age loss development***
+
+- Corresponding to paid loss-development factors, we will also have ***incurred loss—development factors***, which could be less than one, if the claim file estimates are conservative
+
+</div><br>
+
+<div class = "lg">
+
+### 4.3.5: Salvage and Subrogation
+
+- Salvage = insurer recovers value from a "written-off" item
+
+- Subrogation = insurer recovers value via lawsuit against third party (e.g., someone who installed faulty wiring) in the event of negligence
+
+</div><br>
+
+<div class = "lg">
+
+### 4.3.6: Loss Adjustment Expenses
+
+- Reserves for the expenses associated with the loss adjustment process must also be provided
+
+- Allocated loss adjustment expenses (ALAE)
+
+- Un-allocated loss adjustment expenses (ULAE)
+
+</div><br>
+
+<div class = "lg">
+
+### 4.3.7: Fast Track Reserves
+
+- For high frequency, low severity, fast-closing lines of business such as auto collision, claim adjusters often use a ***fast track average reserve*** based on recent past experience adjusted for trends, provided by the home office actuary, each time a claim file is opened
+
+- The fast track reserves save time and effort
+
+</div><br>
+
+</div><br>
+
+<div class = "blue">
+
+## 4.4: Professional Considerations
+
+- Setting loss reserves is not the job of a technician, but that of a professional actuary; a considerable degree of judgment is required
+
+- The actuary must become intimately involved with the insurer for which reserves are being established, and also be fully cognizant of external factors, such as inflation, changes in court adjudications, etc.
+
+- Data needed for loss reserving:
+
+  - Line of business (e.g., homeowners, fire, etc.)
+  
+  - Date of loss or occurrence
+  
+  - Report date
+  
+  - Policy issue date
+  
+  - Policy number 
+  
+  - Claim number
+  
+  - All payment and change-in-reserve data with dates
+  
+</div><br>
+
+<div class = "purple">
+
+## 4.5: Checking the Data
+
+- The actuary should review the data to see that the patterns of loss payments are consistent over the years and do not contain any anomalies
+
+- The actuary will work with the insurer's auditor in the verification of the data
+
+</div><br>
+
+<div class = "red">
+
+## <font color = "red">4.6: Loss Reserving Methods</font>
+
+<div class = "lr">
+
+### 4.6.1: Case Reserves Plus
+
+- The first estimate of the loss reserve liability is the total of all existing case reserves
+
+- The gross IBNR also needs to be estimated. It is comprised of the following:
+
+  - Pure IBNR
+  
+  - RBNR (Reported, but not Recorded)
+  
+  - Future adjustments of case reserves on known claims
+  
+  - Files that are closed, but may re-open
+
+- In the past, they just added some percentage of case reserves as gross IBNR; this led to issues with insolvency
+
+- Most jurisdiction now require that a qualified actuary certify the adequacy of the annual statement loss reserve liability
+
+</div><br>
+
+<div class = "lr">
+
+### 4.6.2: The Expected Loss Ratio Method
+
+- The expected loss ratio method:
+
+  - The ultimate loss ratio is calculated: $\text{E}(\text{Loss Ratio})_{i,j}$, where $i$ denotes line of business and $j$ denotes policy period
+
+  - The expected loss ratio, multiplied by the appropriate earned premium figure, will produce the estimated ultimate losses (paid, or incurred): $\text{Estimated Ultimate Losses}_{i,j} = \text{Expected Loss Ratio}_{i,j} \cdot \text{Earned Premium}_{i,j}$, which leads to: $\text{Estimated Loss Reserve}_{i,j} = \text{Estimated Ultimate Losses}_{i,j} - \text{Losses Paid-to-Date}_{i,j}$
+
+  - The loss reserve is then the estimated ultimate losses minus the losses paid-to-date: $\text{Total Estimated Loss Reserve} = \sum_{i,j} \text{Estimated Loss Reserve}_{i,j}$ 
+
+- This method has several problems and should not be used as the loss reserving method for an entire company portfolio, because if the expected loss ratio is manipulated by management, inappropriate or inadequate reserves can result
+
+- Also, reserves produced by this method can be illogical
+
+- Hence, this method should be used with great care
+
+</div><br>
+
+<div class = "lr">
+
+### 4.6.3: The Chain-Ladder or Loss-Development Triangle Method
+
+- Most actuaries today include in their analysis some form of this method
+
+- ***See Tables 4.1-3***
+
+- Generally, it is a good idea to do both a paid-loss-development and an incurred-loss-development analysis, although expected ultimate payments and expected ultimate incurrals should be the same
+
+- Loss-development triangles (such as those in Table 4.3) demand a great deal of time and analysis
+
+- Loss-development factor for oldest accident year assumed to be equal to 1.000
+
+- Chain-ladder method develops the loss reserve in three steps
+
+  - Single age-to-age column factors are chosen to model the loss development indicated by existing experience data
+  
+  - The selected patterns of loss development are then projected to create the lower half of the loss-development triangle
+  
+  - The expected ultimate payments less payments-to-date represent the reserve requirement
+
+- This method is not particularly stable; if we have a change in reserving philosophy at the management level, or one or two large claims in a particular year, the actuarial reserve estimate can change significantly
+
+- The chain-ladder method must be used with extreme caution and a lot of professional judgment
+
+- Events occurring in any particular calendar year (e.g., a change in reserving philosophy) will be revealed along diagonals; hence, particular care should be taken to look for transitions along diagonals
+
+- There exist methods for increasing the method's stability
+
+</div><br>
+
+<div class = "lr">
+
+### 4.6.4: The Bornhuetter-Ferguson Method
+
+- Reserving actuary will calculate estimated ultimate losses using several methods, then find a final value based off of the different results. 
+
+- The reserve is the best  estimate of ultimate losses, less total loss payments made to date
+
+- The ***Bornhuetter-Ferguson method*** formally combines the expected loss ratio and chain-ladder methods of loss reserving
+
+- The method is meant to be a stabilizer for long-tail lines of immature data
+
+- The method is described as follows:
+
+  - For each accident year row of the loss-development triangle, the actuary estimates the ultimate loss ratio expected for that accident year
+  
+  - Using this estimated loss ratio and the earned premium for that accident year, the actuary calculates the ***estimated ultimate total losses*** for that accident year
+
+  - Then, use the paid age-to-age loss-development factors derived by the chain-ladder method to calculate age-to-ultimate factors than can be used to develop immature losses paid-to-date to their fully mature ultimate level
+<br>
+- ***Bornhuetter-Ferguson Calculations***:
+
+$$
+  \textbf{Estimated Ultimate Losses} = \text{Expected Loss Ratio} \times \text{Earned Premium}
+\\
+  \textbf{Estimated Loss Reserve} = \text{Estimated Ultimate Losses} \times \left(1 - \dfrac{1}{f_{ult}} \right) 
+$$  
+
+- <font color = "blue">***See Example 4.1***</font> for calculation of estimate loss reserve using expected loss ratio method, chain-ladder method, and Bornhuetter-Ferguson method
+
+- Advantages: more stable than chain-ladder and allows inclusion of data from other sources
+
+- Disadvantage: requires an assumption, perhaps from an outside data source, for the initial expected loss ratio, and such data may not be available
+
+$$
+  R_{BF} = \left( 1 - \dfrac{1}{f}\right) \times R_{LR} + \dfrac{1}{f} \times R_{CL}
+$$
+
+$$\text{where } R_{x} \text{ is the Loss Reserve under method } x \text{, and } \\ f = \prod f_j\text{, where }f_j\text{ are the age-to-age loss-development factors (link ratios)}$$
+
+</div><br>
+
+<div class = "lr">
+
+### 4.6.5: Estimates Split into Frequency and Severity
+
+- This method can provide very valuable information
+
+- Loss reserve analysis based on two development triangles: one for incurred claim count, and one for the average payment per claim incurred
+
+- Claim count triangle generally quite dependable, matures rapidly to its ultimate values, and can usually be used with confidence
+
+- By reviewing the percentage of claim files that are closed at any duration, the actuary can determine the ***speed of finalization****, or ***settlement rate***, indicated by the data
+
+- <font color = "blue">***See Example 4.4 for calculations! [crucial]***</font>
+
+</div><br>
+
+<div class = "lr">
+
+### 4.6.6: Summary
+
+- Without reviewing the context in which the actuary is forced to work, it is impossible to say that any one method is better than another
+
+- Normally, the actuary will determine an ultimate loss estimate using more than one method
+
+</div><br>
+
+</div><br>
+
+<div class = "orange">
+
+## 4.7: Discounting Loss Reserves
+
+- The issue of discounting loss reserve estimates to reflect the time value of future loss payments has been a surprisingly controversial actuarial topic for the property/casualty actuary
+
+- In contrast, for the life actuary, discounting has been used since the issuance of the first life insurance policy
+
+- A reason given for using un-discounted loss reserves is that non-discounting provides a level of conservatism that is fiscally prudent
+
+- The interest rate should be the one that will be earned by the assets held to fund the reserve cash flow requirements until loss payments are finalized; however, it may not be clear exactly which assets
+are backing those liabilities
+
+- In the United States, regulators generally do not accept discounting of loss reserves on insurers’ financial statements, while they do require that discounted cash flows be used in pricing, as they argue that the balance sheet loss reserves should be on a conservative basis
+
+- Loss reserves are discounted for Federal Income Tax purposes
+
+</div><br>
+
+</div> <!-- ja -->
+
+<br>
+
+<div class = "ja">
+
+# Chapter Five: Intermediate Topics
+
+<div class = "yellow">
+
+## 5.1: Individual Risk Rating Plans
+
+- It is the underwriter's mission to make sure the policies written by the insurer produce a profit
+
+- The underwriter decides into which classification an applicant falls and then judges whether the rate for that classification is adequate (will produce a profit for the insurer) for that applicant
+
+- A method to achieve greater precision in this goal is to modify the rate in some manner to better reflect individual risks
+
+  - Historic loss experience of an individual risk has some degree of credibility
+
+  - Using a risk’s past loss experience to modify the class rate is called ***experience rating***, whereby experience is credibility and it adjusts the published class rates:
+
+$$
+  \text{Adopted New Premium} = Z(\text{Recent Ph Loss Cost}) + (1-Z)(\text{Adopted Class Rate})
+$$
+
+  - A min and max premium may be defined
+
+- Another technique, ***schedule rating***, uses sets of subjective criteria to debit or credit the class rate
+
+  - Criteria may include: 
+    
+    - company safety programs
+  
+    - existence of a risk management department
+    
+    - general managerial attitude
+    
+- Other rating plans modify the premium after the policy has expired (***retrospective rating***)
+
+  - More precise, but more complex
+  
+  - The risk's own losses are added to risk charges and expense charges to produce the final premium, subject to pre-determined max and min premiums:
+  
+$$
+  \text{Final Charge} = Z(\text{Actual Ph Experience}) + (1-Z)(\text{Industry Average Experience})
+$$
+
+</div><br>
+
+<div class = "green">
+
+## 5.2: Increased Limits Factors
+
+- For liability coverages, the ratemaking procedure discussed in Chapter 3 are for basic limits coverage and are usually the minimum limit offered by the insurer
+
+- Most policyholders would want increased protection afforded by higher policy limits. This results in multiplying the basic limits premium (rate x exposure) by an ***Increased Limits Factor (ILF)***
+
+- How to determine the ILF?
+
+<div class = "lg">
+
+### 5.2.1: Data Considerations 
+
+- Adverse selection - policyholders who feel they are more likely to have a larger loss are more likely to purchase higher limits
+
+- The way to minimize data distortions in increased limits ratemaking is, at each limit, use only those policies with limits at least as high as the limit being tested (e.g., basic limit = $50k, limit being tested = $250k -> tabulate losses on policies with min limit $250k, tabulate losses limited to $50-250k to find relationship between the limits)
+
+- See ***Example 5.1*** for calculations of ILFs
+
+</div><br>
+
+<div class = "lg">
+
+### 5.2.2: Loss Development
+
+- Larger losses tend to be more difficult to case reserve and also settle more slowly than smaller losses due to the following:
+
+  - They're more complex
+  
+  - Takes longer to gather all of the information needed to set a realistic reserve
+  
+- In light of the above factors, in selecting loss development factors to be applied to a specific loss limit, the factors should be based on triangles of losses for which all losses are limited to that amount
+
+</div><br>
+
+<div class = "lg">
+
+### 5.2.3: Trend
+
+- When a loss limit is imposed, the impact of claims inflation is dampened (e.g., if the limit is $50k, any inflationary growth in claim size for claims of $50k or more has no impact)
+
+- Only if we consider limits greater than or equal to the largest adjusted loss will the full [x]% inflation be realized (See ***Example 5.2***)
+
+</div><br>
+
+<div class = "lg">
+
+### 5.2.4: Risk
+
+- While it was shown that the pooling of losses reduces the variation faced by the insurance company compared to what an individual policyholder faces, the variation is not totally eliminated.
+
+- Reward should be positively correlated with the risk assumed, and the risk increases as the insured limit increases
+
+- A risk load is an extra charge, usually expressed as a percentage of expected losses (See ***Example 5.3*** for calculation)
+
+</div><br>
+
+<div class = "lg">
+
+### 5.2.5: Expenses
+
+- Expenses can be divided into fixed and variable
+
+- Internal cost of claim handling varies very little for increased limits
+
+- $10k claim shouldn't take 10x effort compared to $1k claim; with that said, loss adjustment costs are often considered variable
+
+- The only expense which are clearly directly proportional to the premium are commission, premium tax, etc.
+
+- Alternative ILF formula follows:
+
+$$
+  \text{ILF} = \dfrac{\text{E[Losses at Limit} \ l] + \text{Risk Charge at Limit} \ l + \text{Expenses for Limit} \ l}{\text{E[Losses at Limit} \ b] + \text{Risk Charge at Limit} \ b +\text{Expenses at Limit} \ b}
+$$
+
+</div><br>
+
+<div class = "lg">
+
+### 5.2.6: Loss Distributions
+
+- One method that actuaries have used to develop a consistent structure for increased limits is based on size of loss distributions
+
+- The empirical loss data is used to determine a statistical distribution that best describes the data
+
+- Issue: whether only closed claim data should be used, or should the data also include case reserves on open claims, which are subject to development
+
+- Suggestion: open claims should usually be included
+
+$$
+ ============================================
+$$
+
+- Let $f(x)$ be a loss distribution. Then, the expression of total losses limited to basic limit $x=b$:
+
+$$
+  \int_{x=0}^b x f(x) \ dx + b \int_{x=b}^\infty f(x) \ dx
+$$
+
+- This is the sum of total losses up to $b$, and $b$ multiplied by the probability that a loss will exceed $b$
+
+- For any increased limit, $l$, where $l>b$, total losses equal:
+
+$$
+  \int_{x=0}^l x f(x) \ dx + l \int_{x=l}^\infty f(x) \ dx
+$$
+
+- Then, the ratio of these two expressions describes the loss component of the ILF
+
+- To determine the actual ILF, fixed expenses and profit and risk charges must also be considered as discussed in the previous section
+
+</div><br>
+
+</div><br>
+
+<div class = "blue">
+
+## 5.3: Reinsurance
+
+- For the following reasons, most insurers find that they do not want to retain all of the risk that they have taken on in writing insurance policies:
+
+  - The insurer has too much exposure concentrated in one geographical area
+  
+  - The insurer cannot or does not want to absorb the chance of several very large losses
+  
+  - The insurer is experiencing financial difficulty and needs to reduce its net exposure, and record future profits immediately
+  
+  - A risk is too large for the insurer to handle on its own
+  
+  - The insurer wants more stability in its results and is willing to reduce its average profit to achieve this goal
+  
+  - The insurer wants to completely exit a line of business or market segment
+
+- Each of the above situations can be handled through ***reinsurance***, which involves the insurer, in effect, buying an insurance policy from another insurer, the reinsurer
+
+- The obligation of the primary insurer that originally issued the policy is not transferred to the reinsurer, but the primary insurer will call upon the reinsurer to reimburse it for all payments subject to the terms of the reinsurance contract
+
+- Parlance of reinsurance: the original company ***cedes*** and the reinsurer ***assumes** all, or part, of the  original risk
+
+- ***Facultative reinsurance*** reinsures a single insurance policy
+
+- ***Treaty reinsurance*** will cover all of the insurer's policies or a defined subset
+
+- Reinsurance coverage terms:
+
+  - ***Catastrophe cover*** protects against aggregation of losses for a single event, such as a hurricane or earthquake
+  
+  - ***Quota share*** is a form of proportional reinsurance which cedes a fixed proportion of each and every loss to the reinsurer
+  
+  - ***Excess of loss reinsurance*** covers each loss between a specified lower limit, the *attachment point*, up through a specified upper limit
+  
+  - ***Stop-loss reinsurance*** protects an insurer's entire book (or subset thereof) against losses exceeding a certain amount
+  
+  - Lots of variations of these basic types of reinsurance
+
+- The reinsurance premium is usually expressed as a percentage of the subject premium -- the full premium on the policies being reinsured
+
+- In proportional reinsurance, it is customary for the reinsurer to pay a ceding commission to the ceding company, since the ceding company has paid all expenses involved in writing the policy, and it will pay the un-allocated loss adjustment expense
+
+- Pricing and loss reserving for reinsurance share many of the same methods and principles as were discussed for primary insurance, but osme attributes make it more challenging, including:
+
+  - data considerations
+  
+  - longer time periods to settlement
+  
+  - greater variability
+  
+#### Treaty Reinsurance
+
+- When a treaty is entered into, the reinsurer does not generally know all of the specific risks it will be covering
+
+- The treaty may be written on a ***risk-exposed basis***, which would cover losses occurring during a specified time period, or a ***risk-attaching basis***, under which all policies with an effective data during a specified time period are covered
+
+- See ***Example 5.4*** for calculations involving ILFs being used to price excess reinsurance
+
+<div class = "lb">
+
+### 5.3.1: Reserving for Reinsurance
+
+- Both the ceding (primary) company’s and assuming company’s reserves are impacted by the reinsurance transaction
+
+- Theoretically, the ceding company‘s loss reserves should be reduced by the same amount that the
+reinsurer’s reserves are increased, but this not happen if the two companies use different methods
+
+- Primary company still legally responsible to its policyholders, and must publish reserves on a direct basis (before reinsurance) and on a net basis (after reinsurance)
+
+- The ceding company has a choice of how to assemble its data (direct, net, ceded [difference]), but the best way is to do the analysis on all three bases
+
+- One would think that catastrophe reserves are easy to determine. It should be known by the evaluation date or very shortly thereafter if an insured event has occurred. That is true, but the amount of the loss can take months or even years to finalize
+
+</div><br>
+
+</div><br>
+
+</div>
