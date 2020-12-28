@@ -14,7 +14,7 @@ Therefore, I devised a way to produce beautiful, stylized notes that would help 
 
 Below is an example of my notes from the Loss Models section of Exam STAM, in all their stylized, web-ready glory:
 
-![](https://github.com/JosephKnittel/HTML-CSS-LaTeX/blob/main/Images/notes_demo.gif?raw=true)
+<img src = "https://github.com/JosephKnittel/HTML-CSS-LaTeX/blob/main/Images/notes_demo.gif?raw=true" width = 70%>
 
 <hr>
 
