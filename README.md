@@ -20,5 +20,5 @@ Below is an example of my notes from the Loss Models section of Exam STAM, in al
 
 ### Contained in this repository:
 - sample collection of notes (exam stam)
-  - .rmd files used to generate the html
+  - .rmd files used to generate the stylized notes
   - .html output files
