@@ -1,3 +1,3 @@
 # re-classifies .rmd files as R files within github's linguist interpreter:
-*.rmd linguist-language=R
-*.Rmd linguist-language=R
+*.rmd linguist-language=r
+*.Rmd linguist-language=r
