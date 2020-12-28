@@ -1,7 +1,7 @@
 # HTML-CSS-LaTeX
 Web-Ready Actuarial Notes Typeset in LaTeX and Stylized with CSS
 
-*This project was completed in my spare time, as a way to facilitate my actuarial studies.*
+*This project was completed in my spare time as a way to facilitate my actuarial studies.*
 
 Studying for actuarial exams requires one to ingest massive amounts of often-equation-dense information. The nature of the task necessitates an orderly approach, and I quickly learned that, with my chicken scratch, hundreds of pages of hand-written notes wouldn't suffice.
 
