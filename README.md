@@ -7,7 +7,7 @@ Studying for actuarial exams requires one to ingest massive amounts of often-equ
 
 Therefore, **I devised a way to produce beautiful, stylized notes that would help me prepare for actuarial exams.** The process went as follows:
 
-1) compose notes as [.rmd](https://rmarkdown.rstudio.com/) files, embedding <img src="https://i.stack.imgur.com/zHFFO.png" width = "5%"> equations wherever necessary
+1) compose notes as [.rmd](https://rmarkdown.rstudio.com/) files, embedding <img src="https://raw.githubusercontent.com/JoeKnittel/HTML-CSS-LaTeX/main/Images/latex.png" width = "5%"> equations wherever necessary
 2) include CSS styles directly within the files 
 3) [knit](https://en.wikipedia.org/wiki/Knitr#:~:text=knitr%20is%20an%20engine%20for,%2C%20AsciiDoc%2C%20and%20reStructuredText%20documents.) the files to HTML
 4) review notes in any web browser, taking advantage of [MathJax](https://www.mathjax.org)'s equation rendering
