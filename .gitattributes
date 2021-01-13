@@ -1,4 +1,4 @@
 # re-classifies .rmd files as R files within github's linguist interpreter:
 *.rmd linguist-language=r
 *.Rmd linguist-language=r
-*.html linguist-language=tex
+*.html linguist-language=latex
